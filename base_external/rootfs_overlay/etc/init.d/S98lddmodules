@@ -2,14 +2,14 @@
 case "$1" in
     start)
     echo "Loading Drivers"
-    scull_load
-    module_load
+    scull_load.sh
+    module_load.sh faulty
     modprobe hello
     ;;
     stop)
     echo "Unloading Driver"
-    scull_unload
-    module_unload
+    scull_unload.sh
+    module_unload.sh faulty
     rmmod hello
     ;;
     *)
