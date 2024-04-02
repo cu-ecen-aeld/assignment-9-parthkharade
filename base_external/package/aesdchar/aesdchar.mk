@@ -6,7 +6,7 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESDCHAR_VERSION = d17bc5a59e80e9d15b5eada1f6c8eed9d30602e6
+AESDCHAR_VERSION = a778bf5947e4284dd1549d51acf802756ea75db0
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 AESDCHAR_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-parthkharade.git
